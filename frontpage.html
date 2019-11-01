@@ -1,7 +1,8 @@
 <div class="jumbotron text-center">
 	<div class="container">
 	  <h1 class="display-3">Welcome To My Moodle!</h1>
-	  <p>A Responsive Moodle Front page insert</p>
+	  <p>A Responsive Moodle Front page insert</p><br /><a href="#" data-toggle="popover" title="Contact" 
+      data-content="email: atul.adhikari@camplus.co.in">Contact us</a>
 	</div>
 </div>
 <div class="container">
@@ -27,3 +28,9 @@
     <hr>
 
   </div>
+
+  <script>
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover(); 
+});
+</script>
